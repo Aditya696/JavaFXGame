@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="field" alignment="BOTTOM_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game2022.javafxgame.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Button mnemonicParsing="false" onAction="#setDistance" text="Distance" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+      <Button mnemonicParsing="false" onAction="#getDirection" text="Direction" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+      <TextField fx:id="field1" prefHeight="31.0" prefWidth="142.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <TextField fx:id="field2" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+      <Label prefHeight="21.0" prefWidth="99.0" text="Player Turn  :" GridPane.columnIndex="6" />
+      <TextField fx:id="displayTurnValue" GridPane.columnIndex="7" />
+      <Button mnemonicParsing="false" onAction="#endTurn" text="End Turn" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+      <Button mnemonicParsing="false" onAction="#setPlayer1Name" text="Set Player1 Name" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+      <TextField  fx:id="player1Name" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+      <Button mnemonicParsing="false" onAction="#setPlayer2Name" text="Set Player2 Name" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+      <TextField  fx:id="player2Name" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+   </children>
+</GridPane>
